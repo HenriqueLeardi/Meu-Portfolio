@@ -5,31 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
+    <style>
+        body {
+            background-color: #A63A50;
+        }
+
+        h1 {
+            font-family: monospace;
+            color: #EDF060;
+        }
+
+        .nacionalidade {
+            color: #6AB547;
+        }
+
+        .text {
+            color: white;
+            font-family: monospace;
+        }
+
+        .cor-lista {
+            color: white;
+            font-family: monospace;
+        }
+
+        .js {
+            font-size: 30px;
+        }
+
+        .css {
+            font-size: 25px;
+        }
+
+        .html {
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
     <h1>Henrique Leardi Costa Lopes</h1>
-    <h2>Estudante de desenvolvimento web na Trybe.</h2>
+    <h2 class="text">Estudante de desenvolvimento web na Trybe.</h2>
     <img src="Imagens/eu.jpeg" alt="Minha foto" width="300px">
-    <p><em>Foto em que estou com o banner da Trybe.</em></p>
+    <p class="text"><em>Foto em que estou com o banner da Trybe.</em></p>
     <br>
-    <p>Me chamo Henrique Leardi, tenho 20 anos de idade, brasileiro morando em São Sebastião 
-            litoral de SP <br> e atualmente tendo como um dos meus objetivos <strong>aprender de fato a programar</strong>, 
+    <p class="text">Me chamo Henrique Leardi, tenho 20 anos de idade, <span class="nacionalidade">brasileiro morando em São Sebastião 
+            litoral de SP </span> <br> e atualmente tendo como um dos meus objetivos <strong>aprender de fato a programar</strong>, 
             pois assim realizarei meu <br> outro objetivo que é até o 
             ano que vem estar <strong>trabalhando na área da programação</strong>.</p>
 
     <h1>Skills em desenvolvimento</h1>
-    <ul>
-        <li><strong>JavaScript</strong></li>
-        <li>CSS</li>
-        <li>HTML</li>
+    <ul class="cor-lista">
+        <li class="js"><strong>JavaScript</strong></li>
+        <li class="css">CSS</li>
+        <li class="html">HTML</li>
     </ul>
 
         <h1>Meu blog favorito:</h1>
-        <p>Gosto muito desse blog porque ele é de criação do Peter Jordan, que muitos
+        <p class="text">Gosto muito desse blog porque ele é de criação do Peter Jordan, que muitos
             devem conhecer, ele é também <br> uma das minhas inspirações, pois ele também tem esse lado
              programador e é um cara muito esforçado que <br> correu atrás de muitas coisas para estar
              onde está.
         </p>
-        <p>e voce pode acessa-lo <a href="https://www.einerd.com.br/" target="_blank">aqui</a></p>
+        <p class="text">e voce pode acessa-lo <a href="https://www.einerd.com.br/" target="_blank">aqui</a></p>
 </body>
 </html>
